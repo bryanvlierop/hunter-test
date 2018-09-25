@@ -1,0 +1,11 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bryanvanlierop/CLionProjects/project
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /Users/bryanvanlierop/.hunter
+-- [hunter] [ Hunter-ID: 70d75a2 | Toolchain-ID: b7ab528 | Config-ID: 63b5ff1 ]
+-- [hunter] SDL2_ROOT: /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install (ver.: 2.0.7-p1)
+-- [hunter] GLFW_ROOT: /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install (ver.: 3.3.0-p4)
+-- [hunter] BOX2D_ROOT: /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install (ver.: 2.3.1-p0)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/bryanvanlierop/CLionProjects/project/cmake-build-debug
