@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bryanvanlierop/CLionProjects/project
+CMAKE_SOURCE_DIR = /Users/bryanvanlierop/Downloads/hunter-simple-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bryanvanlierop/CLionProjects/project/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bryanvanlierop/Downloads/hunter-simple-master/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryanvanlierop/CLionProjects/project/cmake-build-debug/CMakeFiles /Users/bryanvanlierop/CLionProjects/project/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryanvanlierop/Downloads/hunter-simple-master/cmake-build-debug/CMakeFiles /Users/bryanvanlierop/Downloads/hunter-simple-master/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryanvanlierop/CLionProjects/project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryanvanlierop/Downloads/hunter-simple-master/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named project
+# Target rules for targets named HunterSimple
 
 # Build rule for target.
-project: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 project
-.PHONY : project
+HunterSimple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HunterSimple
+.PHONY : HunterSimple
 
 # fast build rule for target.
-project/fast:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
-.PHONY : project/fast
+HunterSimple/fast:
+	$(MAKE) -f CMakeFiles/HunterSimple.dir/build.make CMakeFiles/HunterSimple.dir/build
+.PHONY : HunterSimple/fast
 
-main.o: main.cpp.o
+simple.o: simple.cpp.o
 
-.PHONY : main.o
+.PHONY : simple.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.cpp.o
-.PHONY : main.cpp.o
+simple.cpp.o:
+	$(MAKE) -f CMakeFiles/HunterSimple.dir/build.make CMakeFiles/HunterSimple.dir/simple.cpp.o
+.PHONY : simple.cpp.o
 
-main.i: main.cpp.i
+simple.i: simple.cpp.i
 
-.PHONY : main.i
+.PHONY : simple.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.cpp.i
-.PHONY : main.cpp.i
+simple.cpp.i:
+	$(MAKE) -f CMakeFiles/HunterSimple.dir/build.make CMakeFiles/HunterSimple.dir/simple.cpp.i
+.PHONY : simple.cpp.i
 
-main.s: main.cpp.s
+simple.s: simple.cpp.s
 
-.PHONY : main.s
+.PHONY : simple.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/main.cpp.s
-.PHONY : main.cpp.s
+simple.cpp.s:
+	$(MAKE) -f CMakeFiles/HunterSimple.dir/build.make CMakeFiles/HunterSimple.dir/simple.cpp.s
+.PHONY : simple.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... project"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... HunterSimple"
+	@echo "... simple.o"
+	@echo "... simple.i"
+	@echo "... simple.s"
 .PHONY : help
 
 

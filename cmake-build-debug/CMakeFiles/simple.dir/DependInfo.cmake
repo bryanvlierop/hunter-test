@@ -4,15 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bryanvanlierop/CLionProjects/project/main.cpp" "/Users/bryanvanlierop/CLionProjects/project/cmake-build-debug/CMakeFiles/project.dir/main.cpp.o"
+  "/Users/bryanvanlierop/Downloads/hunter-simple-master/simple.cpp" "/Users/bryanvanlierop/Downloads/hunter-simple-master/cmake-build-debug/CMakeFiles/simple.dir/simple.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install/include"
-  "/Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install/include/SDL2"
-  "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"
+  "/Users/bryanvanlierop/.hunter/_Base/1b0041a/3173077/c678586/Install/include"
   )
 
 # Targets to which this target links.

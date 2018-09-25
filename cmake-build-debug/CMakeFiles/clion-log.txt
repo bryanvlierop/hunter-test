@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bryanvanlierop/CLionProjects/project
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bryanvanlierop/Downloads/hunter-simple-master
 -- [hunter] Calculating Toolchain-SHA1
 -- [hunter] Calculating Config-SHA1
 -- [hunter] HUNTER_ROOT: /Users/bryanvanlierop/.hunter
@@ -6,6 +6,28 @@
 -- [hunter] SDL2_ROOT: /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install (ver.: 2.0.7-p1)
 -- [hunter] GLFW_ROOT: /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install (ver.: 3.3.0-p4)
 -- [hunter] BOX2D_ROOT: /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install (ver.: 2.3.1-p0)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Found OpenGL: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework   
+CMake Warning (dev) at CMakeLists.txt:21 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable SDL2_ROOT is set to:
+
+    /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install
+
+  Environment variable SDL2_ROOT is set to:
+
+    /Users/bryanvanlierop/.hunter/_Base/70d75a2/b7ab528/63b5ff1/Install
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/bryanvanlierop/CLionProjects/project/cmake-build-debug
+-- Build files have been written to: /Users/bryanvanlierop/Downloads/hunter-simple-master/cmake-build-debug

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bryanvanlierop/CLionProjects/project
+# Install script for directory: /Users/bryanvanlierop/Downloads/hunter-simple-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/bryanvanlierop/CLionProjects/project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bryanvanlierop/Downloads/hunter-simple-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
